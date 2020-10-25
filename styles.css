@@ -1,0 +1,124 @@
+.blue_header {
+    color: blue;
+}
+
+.table-mobile {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.my-gallery {
+        margin-left: 25vw !important;
+    }
+
+@media (min-width: 400px) {
+    .my-gallery {
+        margin-left: 25vw !important;
+    }
+}
+
+@media (min-width: 500px) {
+    .my-gallery {
+        margin-left: 15vw !important;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .blue_header {
+        color: red;
+    }
+
+    .table-mobile {
+        display: table;
+    }
+
+    .logo_header {
+        max-width: 100%;
+    }
+
+    .slider_container {
+        padding: 120px 0 0;
+    }
+
+    .header-first-block {
+        background-color: #e31e24;
+        width: 100%;
+        position: absolute;
+        z-index: 9999999999;
+        height: 28px;
+        left: 0;
+        top: 0;
+        padding: 0 4.17%;
+        display: inline;
+    }
+
+    .header-navbar {
+        margin-left: 25vw;
+    }
+
+    .slider_image {
+        max-height: 400px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 60%;
+        left: 40%;
+    }
+
+    .slider_title {
+        font-size: 30px !important;
+    }
+
+    .my-gallery {
+        margin-left: 10vw !important;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .image_benefits {
+        width: 100px;
+        height: 100px;
+    }
+    .header-navbar {
+        margin-left: 35vw;
+    }
+    .slider_image {
+        max-height: 600px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .slider_image {
+        max-height: 750px;
+    }
+
+    .my-gallery {
+        margin-left: 5vw !important;
+    }
+}
+
+@media (min-width: 1921px) {
+    .blue_header {
+        color: yellow;
+    }
+
+
+    .slider_image {
+        max-height: 1100px;
+    }
+
+    .fotorama {
+        width: 40vw;
+        margin: 1vw;
+    }
+
+    .my-gallery {
+        margin-left: 3vw !important;
+    }
+}
